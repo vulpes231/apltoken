@@ -1,0 +1,9 @@
+create a smart contract for a governance token, decisions  token holders will be able to influence are protocol upgrades, fee changes, and fund allocation. 
+
+the governance structure is a simple token based voting sytem.
+
+token standard erc20
+
+total supply = 500M
+
+will be distributed through airdrop and sales
