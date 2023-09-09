@@ -7,7 +7,7 @@ async function main() {
   const apolloToken = await ContractFactory.deploy();
   await apolloToken.deployed();
 
-  console.log("Contract deployed!");
+  console.log(`Contract ${apolloToken.address} deployed!`);
 }
 
 main()
