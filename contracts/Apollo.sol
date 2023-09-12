@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract ApolloToken is ERC20("Apollo Token", "APL"), Ownable {
     uint256 public totalSupplyCap = 500_000_000 * 10 ** 18; // 500 million tokens with 18 decimal places
     uint256 public airdropAmount = 10_000 * 10 ** 18; // Amount to distribute in airdrop
-    uint256 public salePrice = 1 ether; // Price per token in wei
+    uint256 public salePrice = 150000000000000000; // Price per token in wei
     uint256 public proposalCounter;
     mapping(address => bool) public voters;
     mapping(address => uint256) public votes;

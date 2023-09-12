@@ -41,6 +41,7 @@ module.exports = {
   },
   networks: {
     localhost: {
+      url: "http://127.0.0.1:8545/",
       chainId: 31337,
     },
     tscs: {
@@ -92,12 +93,12 @@ module.exports = {
       "RandomNumberDirectFundingConsumerV2",
     ],
   },
-  // paths: {
-  //   sources: "./contracts",
-  //   tests: "./test",
-  //   cache: "./build/cache",
-  //   artifacts: "./build/artifacts",
-  // },
+  namedAccounts: {
+    deployer: {
+      default: 0,
+      1: 0,
+    },
+  },
   mocha: {
     timeout: 300000, // 300 seconds max for running tests
   },
